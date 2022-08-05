@@ -1,0 +1,24 @@
+.whatsNext {
+    margin-left: 80px;
+    .inner {
+        .text {
+            display: flex;
+            justify-content: center;
+            font-size: 23px;
+            font-weight: 600;
+            color: #E8D630;
+            font-style: italic;
+
+            padding: 25px 0;
+            background-color: #29625F;
+            width: 656px;
+
+            border-radius: 10px;
+
+            .spanText {
+                margin-left: 20px;
+                color: white;
+            }
+        }
+    }
+}

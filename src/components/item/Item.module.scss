@@ -1,0 +1,61 @@
+.item {
+    .inner {
+        width: 165px;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+        .arrow {
+            position: absolute;
+            &::after {
+                content: "";
+                background-image: url("./../../assets/images/Arrow1.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 165px;
+                height: 26px;
+
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    .span {
+        width: 55px;
+        height: 55px;
+        border-radius: 50px;
+        background-color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 23px;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        text-align: center;
+
+        z-index: 99;
+    }
+    .title {
+        display: inline-block;
+        margin-top: 5px;
+        max-width: 150px;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font-size: 19px;
+
+        transition: transform 400ms ease;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

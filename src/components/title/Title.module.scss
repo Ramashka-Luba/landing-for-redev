@@ -1,0 +1,16 @@
+.title {
+    margin-left: 80px;
+    .inner {
+        color: white;
+        .h1Title {
+            font-size: 64px;
+            font-weight: 700;
+            font-style: italic;
+        }
+        .h2Title {
+            font-size: 32px;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+    }
+}
