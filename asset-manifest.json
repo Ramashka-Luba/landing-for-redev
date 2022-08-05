@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/landing-for-redev/static/css/main.0b66f8d6.css",
+    "main.js": "/landing-for-redev/static/js/main.12876fb7.js",
+    "static/js/787.c960498f.chunk.js": "/landing-for-redev/static/js/787.c960498f.chunk.js",
+    "index.html": "/landing-for-redev/index.html",
+    "main.0b66f8d6.css.map": "/landing-for-redev/static/css/main.0b66f8d6.css.map",
+    "main.12876fb7.js.map": "/landing-for-redev/static/js/main.12876fb7.js.map",
+    "787.c960498f.chunk.js.map": "/landing-for-redev/static/js/787.c960498f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b66f8d6.css",
+    "static/js/main.12876fb7.js"
+  ]
+}
